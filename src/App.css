@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/************************/
+
+/* .todo {
+  background-color: black;
+} */
+
+.todolist {
+  height: 119px;
+  width: 548px;
+  margin-left: 417px;
+  margin-top: 138px;
+  border-radius: 12px;
+}
+
+h1 {
+  color: white;
+  padding-top: 21px;
+}
+
+.todo {
+  height: 95px;
+  background-color: #35495D;
+  margin-top: -22px;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+input {
+  width: 498px;
+  height: 43px;
+  position: relative;
+  top: -10px;
+}
+
+.plus {
+  width: 50px;
+  height: 43px;
+  background-color: green;
+  border: green;
+  position: relative;
+  padding: -14px;
+  color: white;
+  font-family: bold;
+  font-size: 35px;
+}
+
+.mylist {
+  background-color: #2ABB9C;
+  margin-bottom: 5px;
+  width: 548px;
+  margin-left: 377px;
+  height: 58px;
+  color: white;
+  font-size: 30px;
+  margin-top: 12px;
+}
+
+.btn {
+  position: relative;
+  top: -60px;
+  left: 207px;
+}
+
+.btn1 {
+  position: relative;
+  top: -60px;
+  left: 210px;
+}
